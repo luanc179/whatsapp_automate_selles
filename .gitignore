@@ -1,0 +1,17 @@
+# Variáveis de ambiente com senhas reais
+.env
+.env.local
+
+# Volumes locais (caso altere para bind mount no futuro)
+n8n_data/
+postgres_data/
+redis_data/
+evolution_instances/
+
+# Arquivos temporários e de sistema
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+*backup*.json
